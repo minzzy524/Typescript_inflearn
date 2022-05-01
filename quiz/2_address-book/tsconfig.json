@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "target": "es5",
+    "lib": ["es2015", "dom", "dom.iterable"],
+    "noImplicitAny": true, // true : any라도 무조간 넣어라
+    "strict" :true, // 타입스크립트의 엄격한 타입 검사 실행
+    "strictFunctionTypes": true
+  },
+  "include": ["./src/**/*"]
+}
